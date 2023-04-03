@@ -1,1 +1,37 @@
-<p>missiondetails works!</p>
+<div class="mission-details">
+    <div class="mission-details__row">
+      <div class="mission-details__column mission-details__column--left">
+        <ul class="mission-details__list">
+          <li class="mission-details__item">
+            <strong>Mission Patch:</strong>
+            <img class="mission-details__image" [src]="mission.links.mission_patch_small" alt="Mission Patch">
+          </li>
+          <li class="mission-details__item">
+            <strong>Launch Date:</strong>
+            <span class="mission-details__text mission-details__text--muted">{{ mission.launch_date_local }}</span>
+          </li>
+          <li class="mission-details__item">
+            <strong>Rocket Name:</strong>
+            <span class="mission-details__text">{{ mission.rocket.rocket_name }}</span>
+          </li>
+        </ul>
+      </div>
+      <div class="mission-details__column mission-details__column--right">
+        <ul class="mission-details__list">
+          <li class="mission-details__item">
+            <strong>Launch Site:</strong>
+            <span class="mission-details__text">{{ mission.launch_site.site_name_long }}</span>
+          </li>
+          <li class="mission-details__item">
+            <strong>Launch Success:</strong>
+            <span class="mission-details__text {{ mission.launch_success ? 'mission-details__text--success' : 'mission-details__text--danger' }}">{{ mission.launch_success }}</span>
+          </li>
+          <li class="mission-details__item">
+            <strong>Details:</strong>
+            <span class="mission-details__text">{{ mission.details }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,10 @@
+.navbar-brand{
+    font-size: 1.5em;
+    color: #66e8ff;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+
+    background: linear-gradient(90deg, #bbbdbb, #04708b);
+
+    
+}

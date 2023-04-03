@@ -1,0 +1,47 @@
+.mission-details {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .mission-details__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .mission-details__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+  }
+  
+  .mission-details__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mission-details__item {
+    margin-bottom: 10px;
+  }
+  
+  .mission-details__item strong {
+    margin-right: 10px;
+  }
+  
+  .mission-details__text--muted {
+    color: #999;
+  }
+  
+  .mission-details__text--success {
+    color: green;
+    font: 1.5em sans-serif;
+  }
+  
+  .mission-details__text--danger {
+    color: red;
+    font: 1.5em courier;
+  }
+  
