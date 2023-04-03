@@ -1,4 +1,5 @@
 ## 101331910LabTest2Comp3133
+## Deployed on Vercel : https://101331910-lab-test-2-comp3133.vercel.app/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
